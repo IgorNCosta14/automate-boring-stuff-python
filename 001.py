@@ -1,0 +1,8 @@
+print('hello world')
+print('what is your name?')
+myName = input()
+print('It is good to meet you, ' + myName)
+print(len(myName))
+print('what is you age?')
+myAge = input()
+print('you will be ' + str(int(myAge) + 1) + ' in a year!')
